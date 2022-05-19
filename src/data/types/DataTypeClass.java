@@ -29,7 +29,7 @@ public class DataTypeClass {
 		System.out.println(flVariable);
 		
 		System.out.println("-------------------------------- long");		
-		long longVariable = 788678998776l;
+		long longVariable = 7886778987l;
 		System.out.println(longVariable);
 		
 		System.out.println("-------------------------------- int");
@@ -48,6 +48,7 @@ public class DataTypeClass {
 		System.out.println("-------------------------------- byte");
 		byte bt;
 		byte byteVariable;
+		
 		byte btVariable2 = 56;
 		System.out.println(btVariable2);
 		bt = 90;
