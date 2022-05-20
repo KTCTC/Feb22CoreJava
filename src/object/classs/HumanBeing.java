@@ -22,12 +22,15 @@ public class HumanBeing {
 	
 	public static void main(String[] args) {
 		
-		byte bt =90;
+		byte bt = 0;
 		byte aa = bt;
 		HumanBeing oi = new HumanBeing();
 		HumanBeing obj = new HumanBeing();
 		HumanBeing oo = new HumanBeing();		
-		HumanBeing obb = oo;	
+		HumanBeing obb = oo;
+		
+		
+		System.out.println(obj.name);
 		
 		oo.eatsFood();
 		
