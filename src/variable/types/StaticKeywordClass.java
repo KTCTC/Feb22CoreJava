@@ -15,7 +15,7 @@ public class StaticKeywordClass {
 	
 	public static void sampleStaticMethod()
 	{
-	//	System.out.println(nonStaticInt);
+		System.out.println(nonStaticInt);
 		System.out.println(staticInt);
 	}
 	
@@ -32,6 +32,7 @@ public class StaticKeywordClass {
 	{
 		StaticKeywordClass obj = new StaticKeywordClass();
 		obj.nonStaticInt = 88888;
+		
 		System.out.println(obj.nonStaticInt);
 		System.out.println(nonStaticInt);
 		System.out.println(obj.staticInt);

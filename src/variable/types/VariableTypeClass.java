@@ -36,7 +36,7 @@ public class VariableTypeClass {
 
 	public void sampleMethod() {
 		int stVariable = 88;
-		int pqrs;
+	 int pqrs;
 		pqrs = 78;
 		System.out.println(pqrs);
 
