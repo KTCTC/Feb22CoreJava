@@ -7,6 +7,7 @@ public class RelationalOperator {
 		
 		int a = 5;
 		int b = 50;
+		int z = 60;
 		float xx = 8.5f;
 		float yy = 4.5f;
 		
