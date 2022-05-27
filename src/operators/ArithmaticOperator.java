@@ -5,6 +5,12 @@ public class ArithmaticOperator {
 	public static void main(String[] args) {
 		//  Arithmatic operator  +,-,*,/,%
 		
+		
+		int a = 5;
+		int b = 4;
+		
+		
+		
 		int aa=167;
 		int bb = 45;
 		float xy = 45.4f;	
