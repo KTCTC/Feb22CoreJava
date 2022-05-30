@@ -42,16 +42,25 @@ public class ParameterizedMethodsClass {
 		
 	}
 	
+	
+	
 	public static void main(String[] args) {
+		
 		ParameterizedMethodsClass.sampleMethod3(true, 7, 666.55d);
+		
+		byte sd = 89;
 		
 		ParameterizedMethodsClass obj = new ParameterizedMethodsClass();
 		
-		obj.additionMethod(23,5);
+		
+		int bb = 90;
+		
+		String str = "KTCTC";
+		obj.additionMethod(23,bb);
 		obj.additionMethod(33, 22);
 		obj.additionMethod(456, 4567);
 		obj.substractionMethod(33.5f, 45);
-		obj.sampleConcateMethod("Hi ", " hello", 'A');
+		obj.sampleConcateMethod("Hi ",str, 'A');
 		
 		
 	}

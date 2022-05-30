@@ -10,6 +10,8 @@ public class InterestRateCalculator {
 	public void compoundInterestRateCalculator(int principle, float rateOfInterest, int year)
 	{
 		
+		
+		
 	}
 	
 	

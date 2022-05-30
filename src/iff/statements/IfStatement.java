@@ -15,7 +15,7 @@ public class IfStatement {
 		
 		System.out.println("-------------------------");
 		
-		if(a<0)
+		if(a<0)			
 		System.out.println("This is sample if sattement 1");		
 		System.out.println("This is sample if sattement 2");
 		
