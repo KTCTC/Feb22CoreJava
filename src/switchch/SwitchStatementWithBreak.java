@@ -7,7 +7,7 @@ public class SwitchStatementWithBreak {
 		char ch = 'A';
 
 		switch (ch) {
-		case 'A':
+		case 'A':			
 		case 'a':
 			System.out.println("You have entered Vowel");
 			break;
@@ -40,6 +40,9 @@ public class SwitchStatementWithBreak {
 			System.out.println("sfsfdsfsdf");
 
 		case 1:
+			System.out.println("You have selected case one");
+			System.out.println("You have selected case one");
+			System.out.println("You have selected case one");
 			System.out.println("You have selected case one");
 			break;
 
