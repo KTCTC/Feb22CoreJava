@@ -1,0 +1,30 @@
+ 1. find even or odd number 
+ 2. find all even numbers between 0-100
+ 3. find number is prime or not 
+ 4. swap 2 numbers without using 3rd variable 
+ 5. java code to find vowel or consonant 
+ 6. find largest among three number 
+ 7. program to check leap year or not 
+ 8. fibonacci series 
+ 9. java program to reverse number 
+ 9. calculate average of numbers in arrays int arr[] = {34,44,56,17,13,12};
+ 10. java program to calculate number of vowel or consonant in string/arrays
+ 11. Convert string value to int/short
+ 12. count number of digit,lowercaseletter,uppercase letter, specialCharacter in char array = {'a','2','B','q','4','F','#'};
+ 13. percentage of digit,lowercaseletter,uppercase, special symbol letter in char array = {'a','2','B','q','4','F'}; 
+ 14. percentage of digit,lowercaseletter,uppercase letter in string str = "india is my country 3454564 dfghrtherth 567678 drfhft BBCH"
+ 15. find number of time "AB" in string str = "ABBBDFJGGDFABFJFHYDAB";
+ 16. Reverse given string str = "India is my country"; and array
+ 17. Reverse each word of string str = "India is my country" output= "aidnI si ym yrtnuoc"
+ 18. Number of occurance of substring from given string String given = "My name is ajay. ajay is boy. ajay play cricket."  substring - ajay
+ 19. pattern codes
+ 20. A-Z using 6*6 stars
+ 21. Calculate number of time chasracter occurs in String
+ 22. sort given string a) using array  b) using collection
+ 23. print substring between "AB" in string str = "ABBBDFJGGDFABFJFHYDAB";
+ 24. swap two string 1. Using third string 2. without third string
+ 25. Pallendrom strint abba = abba
+ 26. pallendrom number 353
+ 27. Conver string to array and array to string without methods
+ 
+ 
