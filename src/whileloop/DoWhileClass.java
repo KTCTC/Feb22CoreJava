@@ -9,7 +9,7 @@ public class DoWhileClass {
 		{
 			System.out.println("Inside do while loop");
 			a++;
-		}while(a<10);
+		}while(a>10);
 		
 
 	}
