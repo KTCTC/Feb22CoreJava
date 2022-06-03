@@ -7,6 +7,11 @@ static int b = 45;
 		int aa = 8;
 		System.out.println(a);
 		System.out.println(b);
+		for (;true;)
+		{
+			System.out.println(a);
+			System.out.println(b);
+		}
 
 	}
 	
@@ -36,7 +41,7 @@ static int b = 45;
 			int pqr = 77;
 		}
 		System.out.println(forVari);
-		System.out.println(forInt);
+		System.out.println(IntVari);
 		
 	}
 	
