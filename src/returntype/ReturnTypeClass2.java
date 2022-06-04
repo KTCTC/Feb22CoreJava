@@ -32,9 +32,7 @@ public class ReturnTypeClass2 {
 		{
 			add[i] = arr1[i] + arr2[i];
 		}
-		
-		
-		
+			
 		
 		return add;	
 		

@@ -10,6 +10,7 @@ public class ReturnTypeClass {
 		obj.sample();
 		
 		int a = obj.addition(23, 44);
+		
 		System.out.println(a);
 		float fl = obj.devision();
 		System.out.println(fl);
