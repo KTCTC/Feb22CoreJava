@@ -1,7 +1,7 @@
 package constructorpackage;
 
 public class StudentClass {
-	int rollNumber ;
+	int rollNumber =55;
 	String name;
 	float marks = 50.00f;
 	
@@ -21,17 +21,29 @@ public class StudentClass {
 		name=nn;	
 		
 	}
+	public StudentClass(int a, String nn, Float f)
+	{
+		rollNumber = a;
+		name = nn;
+		marks = f;
+	}
+
 	
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub		
+		// TODO Auto-generated method stub	
+		StudentClass st7 = new StudentClass(444, "ZZZZ", 44.44f);
+		
 		StudentClass st = new StudentClass();
 			
-		st.StudentClass(); //  we can not invoke constructor by using object name or class name
+		//st.StudentClass(); //  we can not invoke constructor by using object name or class name
 		StudentClass oo = st;
 		StudentClass st1  = new StudentClass(33);		
 		StudentClass st2 = new StudentClass(22, "Amit");
+		
+		
+		
 		StudentClass st3 = new StudentClass(33, "Ajay");
 		
 		StudentClass st5 = new StudentClass(45);
@@ -51,13 +63,13 @@ public class StudentClass {
 	public void sample()
 	{
 		System.out.println("Sample Method");
-		
+		System.out.println(rollNumber);
 	}
 	
-	public int StudentClass(float ff)
+	public void StudentClass(float ff)
 	{
 		System.out.println("This is method with name as Class name");
-		return 23;
+		
 	}
 
 }
