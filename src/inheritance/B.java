@@ -4,7 +4,10 @@ public class B extends A{
 	
 	int bb = 40;
 	static int stBB = 23;
-	
+	public B()
+	{
+		System.out.println("This is B constructor");
+	}
 	
 	public void sampleNonStaticMethodFromB()
 	{

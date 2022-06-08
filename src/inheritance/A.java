@@ -5,6 +5,11 @@ public class A {
 	int aa = 90;
 	static int stAA = 33;
 	
+	public A()
+	{
+		System.out.println("This is A constructor");
+	}
+	
 	public  void m()
 	{
 		System.out.println("this is M method from A");

@@ -4,7 +4,10 @@ public class C extends B{
 	
 	float cc = 55.77f;
 	static String stName = "C CLass Static variable";
-	
+	public C()
+	{
+		System.out.println("This is C constructor");
+	}
 	
 	public void sampleNonStaticMethodFromC()
 	{
