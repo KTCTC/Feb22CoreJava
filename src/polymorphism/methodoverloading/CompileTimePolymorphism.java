@@ -3,6 +3,7 @@ package polymorphism.methodoverloading;
 public class CompileTimePolymorphism {
 int a;
 int b;
+static final int pqrs = 89;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CompileTimePolymorphism obj = new CompileTimePolymorphism();
