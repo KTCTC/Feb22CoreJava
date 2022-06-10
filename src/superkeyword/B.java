@@ -10,7 +10,7 @@ public class B extends A{
 	}
 	
 	public B(int a)
-	{	
+	{	super(33);
 		this.aa = a;
 		System.out.println("This is para contructor of B");
 	}
@@ -26,7 +26,7 @@ public class B extends A{
 		System.out.println("This is non static method from B");
 		System.out.println(super.aa);
 		System.out.println(aa);
-		System.out.println(this.aa);
+		System.out.println(super.aa);
 		super.staticMethod();
 		super.nonStaticMethod();
 		bm();

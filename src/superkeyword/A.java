@@ -9,11 +9,11 @@ public class A {
 		this.aa =88;
 		System.out.println("This is A class PARA constructor");
 	}
-	public A()
-	{
-		this.aa =88;
-		System.out.println("This is A class constructor");
-	}
+	
+	  public A() 
+	  { this.aa =88; System.out.println("This is A class constructor");
+	  }
+	 
 	
 	public void nonStaticMethod()
 	{

@@ -1,6 +1,6 @@
 package interfaceeee;
 
-public class SBI implements ReserveBank{
+public class SBI implements ReserveBank,WorldBank{
 
 	@Override
 	public void homeLoanInterestRate() {
@@ -15,7 +15,19 @@ public class SBI implements ReserveBank{
 		System.out.println("car Loan Interest Rate of SBI = 9%");
 		
 	}
+	@Override
+	public void currancyExchangeRate() {
+		// TODO Auto-generated method stub
+		System.out.println("SBi charges currancy exchange rate of 0.1 %");
+		
+	}
 	
+	@Override
+	public void fixedDepositeScheme() {
+		// TODO Auto-generated method stub
+		System.out.println("SBI fixed deposite inerest rate = 5%");
+		
+	}
 	public void goldLoanInterestRate()
 	{
 		System.out.println("gold Loan Interest Rate of SBI = 10%");
@@ -29,6 +41,9 @@ public class SBI implements ReserveBank{
 		System.out.println(rSBI.ABC);
 		System.out.println(rSBI.PQRS);
 		System.out.println(ReserveBank.PQRS);
+		rSBI.defaultMethodFromInterface();
+		
+		ReserveBank.educationalLoanInterestRate();	
 		
 		
 		SBI sbi = new SBI();
@@ -37,8 +52,14 @@ public class SBI implements ReserveBank{
 		sbi.goldLoanInterestRate();
 		System.out.println(sbi.ABC);
 		System.out.println(sbi.PQRS);
+		sbi.defaultMethodFromInterface();
+		
 		
 		
 	}
+
+	
+
+	
 
 }
