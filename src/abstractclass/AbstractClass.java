@@ -1,7 +1,7 @@
 package abstractclass;
 
 public abstract class AbstractClass extends AbstractClass2{
-	int ab = 78;
+	public int ab = 78;
 	static String name = "KTCTC";
 	public final static int ABCD = 45;
 	
