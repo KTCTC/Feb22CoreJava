@@ -9,10 +9,7 @@ public class SampleFinalClass {
 		ABCD = a;
 	}
 	
-	public SampleFinalClass()
-	{
-		ABCD = 77;
-	}
+	
 	
 	static{
 		PQRS = 67;
@@ -26,7 +23,8 @@ public class SampleFinalClass {
 		
 		
 		
-		  obj.ABCD = 77; obj.PQRS = 667.45f;
+		  obj.ABCD = 77; 
+		  obj.PQRS = 667.45f;
 		  
 		  SampleFinalClass.PQRS =89.34f;
 		 

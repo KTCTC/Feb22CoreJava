@@ -1,5 +1,5 @@
 package enumdata.type;
 
-public enum EnggYears { First, Second, Third, Forth
+public enum EnggYears { First, Second, Third, Forth	
 
 }
