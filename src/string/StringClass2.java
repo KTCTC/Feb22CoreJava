@@ -1,16 +1,20 @@
 package string;
 
 public class StringClass2 {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
 		// charAt(), length(),endsWith(" "),startsWith(),replace(),split(" "),trim(),subString(),contains(),equals(),
 				//concate(),equalsIgnoreCase(String another),toLowerCase(),toUpperCase()
 		
+		StringClass2 obj = new StringClass2();
+		
 		String str = "Welcome to KTCTC.How are you?";
 		String str1 = "     to     KTCTC    ";
 		String str2 = "Welcome to KTCTC.How are you?";
 		
+		str.contentEquals(".How are you?");
 		String ss7 = str.toUpperCase();
 		System.out.println(ss7);
 		String ss6 = str.toLowerCase();
