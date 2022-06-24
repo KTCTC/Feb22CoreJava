@@ -13,7 +13,7 @@ public class ExceptionHandlingTryCatch {
 	try {
 		c = a/b;
 	}
-	catch(Exception e)
+	catch(ArithmeticException e)
 	{
 		c = a;
 		System.out.println("Inside catch block");
